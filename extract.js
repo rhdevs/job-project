@@ -1,16 +1,14 @@
 const fs = require("fs");
-const openai = require('openai');
 const pdf = require("pdf-parse");
 
-const openaiClient = new openai.OpenAIApiClient({
-    apiKey: 'YOUR_API_KEY',
-  });
+const { OpenAI } = require('openai');
+const openai = new OpenAI({ apiKey: YOUR_API_KEY });
 
 const prompt = "Summarize the text below into a JSON with exactly the following structure {basic_info: {first_name, last_name, full_name, email, phone_number, location, portfolio_website_url, linkedin_url, github_main_page_url, university, education_level (BS, MS, or PhD), graduation_year, graduation_month, majors, GPA}, work_experience: [{job_title, company, location, duration, job_summary}], project_experience:[{project_name, project_description}]}";
 
 async function extractDetailsWithGPT(text) {
     try {
-        const response = await openaiClient.chat.completions.create({
+        const response = await openai.chat.completions.create({
             model: "gpt-3.5-turbo-1106",
             response_format: { type: "json_object" },
             messages: [
@@ -19,7 +17,7 @@ async function extractDetailsWithGPT(text) {
             ]
         });
 
-        const extractedData = parseGPTResponse(response.choices[0].message.content);
+        const extractedData = response.choices[0].message.content;
         return extractedData;
     } catch (error) {
         console.error("Error using GPT API:", error);
