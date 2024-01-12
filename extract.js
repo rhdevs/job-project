@@ -50,7 +50,11 @@ async function main() {
 
     try {
         const resumeData = await extractResumeDetails(pdfPath);
-        fs.writeFileSync("resume_data.json", JSON.stringify(resumeData, null, 2));
+
+        // Parse the extracted data as JSON
+        const parsedResumeData = JSON.parse(resumeData);
+
+        fs.writeFileSync("resume_data.json", JSON.stringify(parsedResumeData, null, 2));
         console.log("JSON file created successfully!");
     } catch (error) {
         console.error("Error reading or extracting resume details:", error);
