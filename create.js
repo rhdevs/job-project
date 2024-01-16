@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 const { OpenAI } = require('openai');
-const openai = new OpenAI({ apiKey: "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" });
+const openai = new OpenAI({ apiKey: "YOUR-API-KEY" });
 
 const prompt = "Write a cover letter based on the JSON files given. Use all information given. Do not put placeholders. Use correct cover letter format and whitespace and indentation. The date is "+ new Date().toLocaleDateString();
 
