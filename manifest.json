@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "RHDev Job Application Autofill",
+    "description": "Autofill your job applications",
+    "version": "1.0",
+    "permissions": ["activeTab"],
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "16": "images/icon-16.png",
+            "32": "images/icon-32.png",
+            "48": "images/icon-48.png",
+            "128": "images/icon-128.png"
+        }
+    },
+    "icons": {
+        "16": "images/icon-16.png",
+        "32": "images/icon-32.png",
+        "48": "images/icon-48.png",
+        "128": "images/icon-128.png"
+    },
+    "content_scripts": [
+        {
+            "js": ["scripts/autofill.js"],
+            "matches": [
+                "<all_urls>",
+                "http://localhost/*"
+            ]
+        }
+    ]
+  }
