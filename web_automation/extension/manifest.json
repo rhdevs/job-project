@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "RHDevs Autofill Extension",
+  "version": "1.0",
+  "description": "Autofills CV application forms",
+  "permissions": ["tabs", "activeTab"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
