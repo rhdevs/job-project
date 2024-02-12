@@ -3,8 +3,14 @@
   "name": "RHDevs Autofill Extension",
   "version": "1.0",
   "description": "Autofills CV application forms",
-  "permissions": ["tabs", "activeTab"],
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup/popup.html"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": [
+    "<all_urls>"
+   ],
+  "background": {
+    "service_worker": "background.js"
   }
 }
