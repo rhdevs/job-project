@@ -1,0 +1,242 @@
+new Map([
+    [
+        "input[data-test='inputForEmail']",
+        "john.doe@example.com"
+    ],
+    [
+        "input[data-test='inputForPassword']",
+        ""
+    ],
+    [
+        "input[type='checkbox']",
+        true
+    ],
+    [
+        "input[data-test='inputForFirstName']",
+        "John"
+    ],
+    [
+        "input[data-test='inputForLastName']",
+        "Doe"
+    ],
+    [
+        "input[data-test='inputForPhoneNumber']",
+        "123-456-7890"
+    ],
+    [
+        "textarea[data-test='inputForSummary']",
+        "Experienced software engineer with a passion for building scalable and robust web applications."
+    ],
+    [
+        "input[data-test='inputForEducationDegree']",
+        "Bachelor of Science in Computer Science"
+    ],
+    [
+        "input[data-test='inputForEducationUniversity']",
+        "University of Anytown"
+    ],
+    [
+        "input[data-test='inputForEducationYear']",
+        "2016-2020"
+    ],
+    [
+        "input[data-test='inputForExperiencePosition0']",
+        "Software Engineer"
+    ],
+    [
+        "input[data-test='inputForExperienceCompany0']",
+        "Tech Company XYZ"
+    ],
+    [
+        "input[data-test='inputForExperienceLocation0']",
+        "Anytown, USA"
+    ],
+    [
+        "input[data-test='inputForExperienceStartDate0']",
+        "2020-01"
+    ],
+    [
+        "input[data-test='inputForExperienceEndDate0']",
+        null
+    ],
+    [
+        "textarea[data-test='inputForExperienceResponsibilities0']",
+        "Developed and maintained web applications using React and Node.js.\nCollaborated with cross-functional teams to deliver high-quality software products.\nImplemented automated testing procedures to ensure code quality and reliability."
+    ],
+    [
+        "input[data-test='inputForExperiencePosition1']",
+        "Intern"
+    ],
+    [
+        "input[data-test='inputForExperienceCompany1']",
+        "Software Solutions Inc."
+    ],
+    [
+        "input[data-test='inputForExperienceLocation1']",
+        "Somecity, USA"
+    ],
+    [
+        "input[data-test='inputForExperienceStartDate1']",
+        "2019-06"
+    ],
+    [
+        "input[data-test='inputForExperienceEndDate1']",
+        "2019-08"
+    ],
+    [
+        "textarea[data-test='inputForExperienceResponsibilities1']",
+        "Assisted in software development tasks under the guidance of senior developers.\nParticipated in team meetings and brainstorming sessions to discuss project requirements."
+    ],
+    [
+        "input[data-test='inputForSkills0']",
+        "JavaScript"
+    ],
+    [
+        "input[data-test='inputForSkills1']",
+        "React"
+    ],
+    [
+        "input[data-test='inputForSkills2']",
+        "Node.js"
+    ],
+    [
+        "input[data-test='inputForSkills3']",
+        "HTML"
+    ],
+    [
+        "input[data-test='inputForSkills4']",
+        "CSS"
+    ],
+    [
+        "input[data-test='inputForSkills5']",
+        "Git"
+    ],
+    [
+        "input[data-test='inputForSkills6']",
+        "Agile Development"
+    ],
+    [
+        "input[data-test='inputForSkills7']",
+        "Problem Solving"
+    ],
+    [
+        "input[data-test='inputForLanguages0']",
+        "English"
+    ],
+    [
+        "input[data-test='inputForLanguagesProficiency0']",
+        "Native"
+    ],
+    [
+        "input[data-test='inputForLanguages1']",
+        "Spanish"
+    ],
+    [
+        "input[data-test='inputForLanguagesProficiency1']",
+        "Intermediate"
+    ],
+    [
+        "input[data-test='inputForInterests0']",
+        "Open-source projects"
+    ],
+    [
+        "input[data-test='inputForInterests1']",
+        "Hiking"
+    ],
+    [
+        "input[data-test='inputForInterests2']",
+        "Cooking"
+    ],
+    [
+        "input[data-test='inputForInterests3']",
+        "Reading"
+    ]
+])
+
+
+
+Adressing field with value: input[data-test='inputForEmail'] john.doe@example.com
+popup.js:44 Adressing field with value: input[data-test='inputForPassword'] 
+popup.js:44 Adressing field with value: input[type='checkbox'] true
+popup.js:44 Adressing field with value: input[data-test='inputForFirstName'] John
+popup.js:44 Adressing field with value: input[data-test='inputForLastName'] Doe
+popup.js:44 Adressing field with value: input[data-test='inputForPhoneNumber'] 123-456-7890
+popup.js:44 Adressing field with value: textarea[data-test='inputForSummary'] Experienced software engineer with a passion for building scalable and robust web applications.
+popup.js:44 Adressing field with value: input[data-test='inputForEducationDegree'] Bachelor of Science in Computer Science
+popup.js:44 Adressing field with value: input[data-test='inputForEducationUniversity'] University of Anytown
+popup.js:44 Adressing field with value: input[data-test='inputForEducationYear'] 2016-2020
+popup.js:44 Adressing field with value: input[data-test='inputForExperiencePosition0'] Software Engineer
+popup.js:44 Adressing field with value: input[data-test='inputForExperienceCompany0'] Tech Company XYZ
+popup.js:44 Adressing field with value: input[data-test='inputForExperienceLocation0'] Anytown, USA
+popup.js:44 Adressing field with value: input[data-test='inputForExperienceStartDate0'] 2020-01
+popup.js:44 Adressing field with value: input[data-test='inputForExperienceEndDate0'] null
+popup.js:44 Adressing field with value: textarea[data-test='inputForExperienceResponsibilities0'] Developed and maintained web applications using React and Node.js.
+Collaborated with cross-functional teams to deliver high-quality software products.
+Implemented automated testing procedures to ensure code quality and reliability.
+popup.js:44 Adressing field with value: input[data-test='inputForExperiencePosition1'] Intern
+popup.js:44 Adressing field with value: input[data-test='inputForExperienceCompany1'] Software Solutions Inc.
+popup.js:44 Adressing field with value: input[data-test='inputForExperienceLocation1'] Somecity, USA
+popup.js:44 Adressing field with value: input[data-test='inputForExperienceStartDate1'] 2019-06
+popup.js:44 Adressing field with value: input[data-test='inputForExperienceEndDate1'] 2019-08
+popup.js:44 Adressing field with value: textarea[data-test='inputForExperienceResponsibilities1'] Assisted in software development tasks under the guidance of senior developers.
+Participated in team meetings and brainstorming sessions to discuss project requirements.
+popup.js:44 Adressing field with value: input[data-test='inputForSkills0'] JavaScript
+popup.js:44 Adressing field with value: input[data-test='inputForSkills1'] React
+popup.js:44 Adressing field with value: input[data-test='inputForSkills2'] Node.js
+popup.js:44 Adressing field with value: input[data-test='inputForSkills3'] HTML
+popup.js:44 Adressing field with value: input[data-test='inputForSkills4'] CSS
+popup.js:44 Adressing field with value: input[data-test='inputForSkills5'] Git
+popup.js:44 Adressing field with value: input[data-test='inputForSkills6'] Agile Development
+popup.js:44 Adressing field with value: input[data-test='inputForSkills7'] Problem Solving
+popup.js:44 Adressing field with value: input[data-test='inputForLanguages0'] English
+popup.js:44 Adressing field with value: input[data-test='inputForLanguagesProficiency0'] Native
+popup.js:44 Adressing field with value: input[data-test='inputForLanguages1'] Spanish
+popup.js:44 Adressing field with value: input[data-test='inputForLanguagesProficiency1'] Intermediate
+popup.js:44 Adressing field with value: input[data-test='inputForInterests0'] Open-source projects
+popup.js:44 Adressing field with value: input[data-test='inputForInterests1'] Hiking
+popup.js:44 Adressing field with value: input[data-test='inputForInterests2'] Cooking
+popup.js:44 Adressing field with value: input[data-test='inputForInterests3'] Reading
+
+
+new Map([
+    [
+        "input[data-test=inputForEmail]",
+        "john.doe@example.com"
+    ],
+    [
+        "input[data-test=inputForPassword]",
+        ""
+    ],
+    [
+        "input[type=checkbox]",
+        ""
+    ],
+    [
+        "input[data-test=firstName]",
+        "John"
+    ],
+    [
+        "input[data-test=lastName]",
+        "Doe"
+    ],
+    [
+        "input[data-test=phoneNumber]",
+        "123-456-7890"
+    ],
+    [
+        "input[data-__meta='[object Object]'][data-__field='[object Object]']",
+        ""
+    ],
+    [
+        "textarea",
+        "Experienced software engineer with a passion for building scalable and robust web applications."
+    ],
+    [
+        "input[data-meta='[object Object]']",
+        "Native, Intermediate"
+    ],
+    [
+        "textarea[data-meta='[object Object]']",
+        "Open-source projects, Hiking, Cooking, Reading"
+    ]
+])

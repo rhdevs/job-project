@@ -1,0 +1,23 @@
+Succesfully entered URL: https://careers.tiktok.com/resume/7320807387795179786/apply
+
+----------------------------------------
+
+Page body:
+['<input autocomplete="off" data-test="inputForEmail" placeholder="Email" type="text" id="email" data-__meta="[object Object]" data-__field="[object Object]" class="atsx-input atsx-input-lg" value="">', '<input autocomplete="new-password" maxlength="256" placeholder="Password" type="password" data-test="inputForPassword" id="password" data-__meta="[object Object]" data-__field="[object Object]" class="atsx-input atsx-input-lg" value="">', '<input type="checkbox" class="atsx-checkbox-input" value="">']
+
+----------------------------------------
+
+Response choices:
+[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='{\n  "input[data-test=\'inputForEmail\']": "john.doe@example.com",\n  "input[data-test=\'inputForPassword\']": "Password",\n  "input[class=\'atsx-checkbox-input\']": ""\n}', role='assistant', function_call=None, tool_calls=None))]
+
+----------------------------------------
+
+Autofill data:
+{
+  "input[data-test='inputForEmail']": "john.doe@example.com",
+  "input[data-test='inputForPassword']": "Password",
+  "input[class='atsx-checkbox-input']": ""
+}
+
+----------------------------------------
+
